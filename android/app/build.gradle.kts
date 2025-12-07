@@ -6,8 +6,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ogavi_flutter"
-    compileSdk = flutter.compileSdkVersion
+    namespace = "com.oemarms.Ogavi"
+    compileSdk = 35
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -21,11 +21,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.ogavi_flutter"
+        applicationId = "com.oemarms.Ogavi"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdk = 26
+        targetSdk = 35
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
